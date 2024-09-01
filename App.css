@@ -1,0 +1,157 @@
+body {
+  background-color: #96a7b9; /* Un fondo claro y neutro */
+  font-family: "Arial", sans-serif; /* Una fuente simple y legible */
+  color: #333; /* Texto en un tono oscuro suave */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #594f8f; /* Un color oscuro para el título */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Mayúsculas en el título */
+}
+
+div {
+  background-color: #ffffff; /* Fondo blanco para el contenedor */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px 5px 0 0;
+  background-color: #3498db; /* Un azul amigable */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase; /* Botones en mayúsculas */
+  transition: background-color 0.3s ease; /* Transición suave en hover */
+}
+
+button:hover {
+  background-color: #2980b9; /* Un azul más oscuro al pasar el mouse */
+}
+
+button:last-child {
+  margin-right: 0; /* El último botón sin margen derecho */
+}
+
+button:disabled {
+  background-color: #bdc3c7; /* Un gris claro para el botón desactivado */
+  cursor: not-allowed; /* Cursor no permitido para botones desactivados */
+}
+
+div p {
+  margin: 5px 0;
+  font-weight: bold; /* Texto en negrita */
+}
+
+body {
+  background-color: #f0f4f8;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #5d3fd3;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.carnet-input {
+  color: #fff; /* Texto en blanco */
+  background-color: #000; /* Fondo negro */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="section"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000; /* Texto en negro */
+  background-color: #e0e0e0; /* Fondo gris claro para resaltar que es solo lectura */
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px 5px 0 0;
+  background-color: #5d3fd3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3d287c;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+div p {
+  margin: 5px 0;
+  font-weight: bold;
+}
